@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Data-Processing-With-Pandas", "Data-Processing-With-Pandas.pyproj", "{EB238A68-A68C-4E0D-BEC8-50CCDB8C0748}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB238A68-A68C-4E0D-BEC8-50CCDB8C0748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB238A68-A68C-4E0D-BEC8-50CCDB8C0748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16E2E824-BF53-4204-AD05-FE93C9FA4D29}
+	EndGlobalSection
+EndGlobal
