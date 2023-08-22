@@ -28,6 +28,20 @@ df = df.drop('New', axis=1) # axis=1 drop a column, axis=0 drop a row
 print(df)
 print('******************')
 
+#Return a row as a series
+print(df.loc['A'])
+print('******************************')
 
+#return several rows
+print(df.loc[['A','B']])
+print('******************************')
 
+print(df.iloc[0:3])   #slice notation
+print('******************************')
+
+#return the value of specific cells
+print(df.loc['C','W'])
+print('********************************')
+
+print(df.loc[['A','C'],['W','X']])
 
