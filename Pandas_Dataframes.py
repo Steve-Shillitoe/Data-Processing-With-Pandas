@@ -45,3 +45,24 @@ print('********************************')
 
 print(df.loc[['A','C'],['W','X']])
 
+#selection & filtering
+print(df > 0)
+print('&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&')
+print(df[df>0])
+print('&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&')
+print(df['X']>0)
+print('&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&')
+print('Only return rows where X is > 0')
+print(df[df['X']>0])
+print('&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&')
+
+print(df[(df['W']>0)  &  (df['Y']>0)])
+print('&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&')
+
+new_ind = ['WY', 'NY', 'SY', 'Notts', 'Dur']
+df['Counties'] = new_ind
+print(df)
+print('&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&')
+print(df.set_index('Counties'))  #creates new index called Counties
+print('&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&')
+print(df.describe())
