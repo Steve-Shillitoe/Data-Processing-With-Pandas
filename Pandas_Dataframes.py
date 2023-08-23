@@ -1,3 +1,7 @@
+"""
+An exploration of Pandas dataframes
+"""
+
 import numpy as np
 from numpy.random import randint
 import pandas as pd

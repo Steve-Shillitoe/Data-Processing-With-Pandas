@@ -1,3 +1,7 @@
+"""
+An exploration of Pandas series.
+"""
+
 import numpy as np
 import pandas as pd
 
