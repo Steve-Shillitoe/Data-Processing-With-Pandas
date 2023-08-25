@@ -31,4 +31,28 @@ print('\nIn col2 replace WA with Washington')
 df_one['col2'] = df_one['col2'].apply(substitute_full_state_name)
 print(df_one)
 
+#Mapping
+print('\nBefore mapping')
+print(df_one['k1'])
+my_map = {'A':1, 'B':2, 'C':3}
+print('\nAfter mapping')
+print(df_one['k1'].map(my_map))
+
+print('The max value in col 1 is {} at index position {}'.format(df_one['col1'].max(), df_one['col1'].idxmax()))
+
+print('\nConcatenate 2 data frames')
+features = pd.DataFrame({'A':[100,200,300,400,500], 'B':[12,13,14,15,16]})
+predictions = pd.DataFrame({'pred':[0,1,1,0,1]})
+df_new = pd.concat([features, predictions], axis=1)
+print(features)
+print(predictions)
+print('\nNew dataframe by concatenating the above on the columns, axis=1')
+print(df_new)
+
+print('\nPerform one-hot encoding')
+print(pd.get_dummies(df_one['col1']))
+
+
+
+
 
