@@ -1,8 +1,8 @@
 import pandas as pd
 
-def substitute_full_state_name(state):
+def substitute_full_state_name(state, name='Washington'):
     if state[0] == 'W':
-        return 'Washington'
+        return name
     else:
         return state
 
