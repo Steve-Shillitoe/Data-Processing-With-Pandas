@@ -1,3 +1,6 @@
+"""
+An exploration of the Pandas groupby function
+"""
 import pandas as pd
 
 df = pd.read_csv('Universities.csv')
