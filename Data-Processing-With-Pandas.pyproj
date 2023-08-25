@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>eb238a68-a68c-4e0d-bec8-50ccdb8c0748</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Pandas_Missing_Data.py</StartupFile>
+    <StartupFile>Pandas_GroupBy.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Pandas_Dataframes.py" />
+    <Compile Include="Pandas_GroupBy.py" />
     <Compile Include="Pandas_Missing_Data.py" />
     <Compile Include="Pandas_Series.py" />
   </ItemGroup>
@@ -40,6 +41,7 @@
   <ItemGroup>
     <Content Include=".gitignore" />
     <Content Include="requirements.txt" />
+    <Content Include="Universities.csv" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
